@@ -7,6 +7,22 @@ import { useState } from 'react'
 
 const projects = [
   {
+    title: 'Predictive Analytics - Barangay Daang Bakal Health Center',
+    description: 'Full-stack Laravel PHP application with integrated machine learning for disease outbreak prediction. Implements Random Forest, XGBoost, and Decision Tree algorithms to analyze patient health records and predict health trends based on historical data, weather patterns, and population demographics.',
+    tech: ['Laravel', 'PHP', 'Machine Learning', 'Random Forest', 'XGBoost', 'Decision Tree', 'Full Stack', 'Data Analytics'],
+    github: '#',
+    live: '#',
+    images: [
+      { name: 'Dashboard Overview', src: '/images/barangay-health/dashboard.png', description: 'Main dashboard showing patient statistics, total patients, and health center map with case density visualization' },
+      { name: 'Patient Health Records', src: '/images/barangay-health/healthrecord1.png', description: 'Patient record management with table view, search functionality, and actions for viewing and editing records' },
+      { name: 'Add New Patient Dialog', src: '/images/barangay-health/healthrecord 3.png', description: 'Patient information entry form with personal information, physical measurements, and medical details' },
+      { name: 'Patient Records Table', src: '/images/barangay-health/healthrecord2.png', description: 'Detailed patient records table showing all patient information with sorting and filtering options' },
+      { name: 'Health Analytics & Reports', src: '/images/barangay-health/report 1.png', description: 'Comprehensive analytics showing total patients, age groups, diagnoses tracked, gender distribution, and cases per street' },
+      { name: 'Cases by Diagnosis', src: '/images/barangay-health/report 2.png', description: 'Detailed breakdown of medical diagnoses with filtering options, date range selection, and case count visualization' },
+      { name: 'Prediction Visualization', src: '/images/barangay-health/prediction1.png', description: 'AI-powered predictions showing age distribution, total consultations over time, top medical diagnoses, and seasonal patterns' },
+    ]
+  },
+  {
     title: 'Stroke Prediction',
     description: 'This project compares multiple classifiers for medical diagnostics, identifying Support Vector Machine (SVM) as the most accurate model with a test accuracy of 97.15%, followed by K-Nearest Neighbors at 96.66%.',
     tech: ['Python', 'Pandas', 'Scikit-learn', 'Machine Learning', 'Data Analysis'],
@@ -80,22 +96,6 @@ const projects = [
       { name: 'Almazan_PT_F2_MLP.ipynb', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/MLP/Almazan_PT_F2_MLP_.ipynb' },
       { name: 'Almazan-Dominic Boy-LogFile-MLP.xlsx', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/MLP/Almazan-Dominic%20Boy-LogFile-MLP.xlsx' },
       { name: 'Almazan_PT_F2_MLP_.ipynb', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/MLP/Almazan%20-%20PT-F2%20_%20MLP%20Challenge.pdf' },
-    ]
-  },
-  {
-    title: 'Predictive Analytics - Barangay Daang Bakal Health Center',
-    description: 'Full-stack Laravel PHP application with integrated machine learning for disease outbreak prediction. Implements Random Forest, XGBoost, and Decision Tree algorithms to analyze patient health records and predict health trends based on historical data, weather patterns, and population demographics.',
-    tech: ['Laravel', 'PHP', 'Machine Learning', 'Random Forest', 'XGBoost', 'Decision Tree', 'Full Stack', 'Data Analytics'],
-    github: '#',
-    live: '#',
-    images: [
-      { name: 'Dashboard Overview', src: '/images/barangay-health/dashboard.png', description: 'Main dashboard showing patient statistics, total patients, and health center map with case density visualization' },
-      { name: 'Patient Health Records', src: '/images/barangay-health/healthrecord1.png', description: 'Patient record management with table view, search functionality, and actions for viewing and editing records' },
-      { name: 'Add New Patient Dialog', src: '/images/barangay-health/healthrecord 3.png', description: 'Patient information entry form with personal information, physical measurements, and medical details' },
-      { name: 'Patient Records Table', src: '/images/barangay-health/healthrecord2.png', description: 'Detailed patient records table showing all patient information with sorting and filtering options' },
-      { name: 'Health Analytics & Reports', src: '/images/barangay-health/report 1.png', description: 'Comprehensive analytics showing total patients, age groups, diagnoses tracked, gender distribution, and cases per street' },
-      { name: 'Cases by Diagnosis', src: '/images/barangay-health/report 2.png', description: 'Detailed breakdown of medical diagnoses with filtering options, date range selection, and case count visualization' },
-      { name: 'Prediction Visualization', src: '/images/barangay-health/prediction1.png', description: 'AI-powered predictions showing age distribution, total consultations over time, top medical diagnoses, and seasonal patterns' },
     ]
   },
   {
