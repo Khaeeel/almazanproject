@@ -59,6 +59,7 @@ const projects = [
       { name: 'ExerciseM2_AlmazanDominic_NLP_Models.ipynb', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/Sentiment%20Analysis/ExerciseM2_AlmazanDominic_NLP_Models%202.ipynb' },
       { name: 'Manual_Data_Cleaned.csv', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/Sentiment%20Analysis/Almazan_ManualData_Cleaned.xlsx%20-%20Sheet1.csv' },
       { name: 'ExerciseM2_AlmazanDominic_NLP_Models 2.ipynb', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/Sentiment%20Analysis/ExerciseM2_AlmazanDominic_NLP_Models%202.ipynb' },
+      { name: 'EM2_IEEE_Report_DominicAlmazan.docx 5.pdf', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/Sentiment%20Analysis/EM2_IEEE_Report_DominicAlmazan.docx%205.pdf'},
     ]
   },
   {
@@ -95,7 +96,7 @@ const projects = [
     subProjects: [
       { name: 'Almazan_PT_F2_MLP.ipynb', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/MLP/Almazan_PT_F2_MLP_.ipynb' },
       { name: 'Almazan-Dominic Boy-LogFile-MLP.xlsx', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/MLP/Almazan-Dominic%20Boy-LogFile-MLP.xlsx' },
-      { name: 'Almazan_PT_F2_MLP_.ipynb', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/MLP/Almazan%20-%20PT-F2%20_%20MLP%20Challenge.pdf' },
+      { name: 'Almazan - PT-F2 _ MLP Challenge.pdf', link: 'https://github.com/Khaeeel/Project-ML-and-AI/blob/main/MLP/Almazan%20-%20PT-F2%20_%20MLP%20Challenge.pdf' },
     ]
   },
   {
