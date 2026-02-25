@@ -70,12 +70,6 @@ export function Hero() {
             Download Resume
             <Download className="w-4 h-4" />
           </Link>
-          <Link
-            href="#contact"
-            className="px-8 py-3 rounded-lg border border-accent text-accent font-semibold hover:bg-accent/10 transition-colors"
-          >
-            Get In Touch
-          </Link>
         </motion.div>
       </motion.div>
 

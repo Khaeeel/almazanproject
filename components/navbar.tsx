@@ -48,7 +48,7 @@ export function Navbar() {
                 key={link.href}
                 href={link.href}
                 className="text-sm text-muted-foreground hover:text-accent transition-colors duration-200"
-              >werwer
+              >
                 {link.label}
               </Link>
             ))}
