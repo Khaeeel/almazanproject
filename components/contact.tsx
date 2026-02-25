@@ -64,78 +64,11 @@ export function Contact() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4 text-balance">
-            Let&apos;s Work Together
-          </h2>
           <div className="w-12 h-1 bg-accent rounded-full mx-auto mb-6" />
           <p className="text-lg text-muted-foreground">
-            I&apos;m always interested in hearing about new projects and opportunities.
+            Connect with me!
           </p>
         </motion.div>
-
-        <motion.form
-          onSubmit={handleSubmit}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="bg-card border border-border rounded-lg p-8 mb-12 space-y-6"
-        >
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formState.name}
-                onChange={handleChange}
-                className="w-full px-4 py-2 bg-background border border-border rounded-lg text-foreground focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all"
-                placeholder="Your name"
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formState.email}
-                onChange={handleChange}
-                className="w-full px-4 py-2 bg-background border border-border rounded-lg text-foreground focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all"
-                placeholder="your@email.com"
-              />
-            </div>
-          </div>
-
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              value={formState.message}
-              onChange={handleChange}
-              rows={6}
-              className="w-full px-4 py-2 bg-background border border-border rounded-lg text-foreground focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all resize-none"
-              placeholder="Tell me about your project..."
-            />
-          </div>
-
-          <motion.button
-            type="submit"
-            className="w-full px-6 py-3 bg-accent text-accent-foreground font-semibold rounded-lg hover:opacity-90 transition-opacity"
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            {isSubmitted ? 'Message Sent! 🎉' : 'Send Message'}
-          </motion.button>
-        </motion.form>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

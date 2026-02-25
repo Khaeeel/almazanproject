@@ -48,18 +48,11 @@ export function Navbar() {
                 key={link.href}
                 href={link.href}
                 className="text-sm text-muted-foreground hover:text-accent transition-colors duration-200"
-              >
+              >werwer
                 {link.label}
               </Link>
             ))}
           </div>
-
-          <Link
-            href="#contact"
-            className="px-4 py-2 rounded-lg bg-accent text-accent-foreground font-medium hover:opacity-90 transition-opacity"
-          >
-            Get In Touch
-          </Link>
         </div>
       </div>
     </motion.nav>
