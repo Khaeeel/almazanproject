@@ -7,13 +7,13 @@ const certificates = [
   {
     title: 'AI-For-Good Students',
     issuer: 'AI SINGAPORE',
-    description: 'Recognition for participation and achievement in the AI-For-Good Students program',
+    description: 'Awarded for active participation and accomplishments in the AI-For-Good Students Program by AI Singapore, promoting the use of artificial intelligence for social good.',
     image: '/images/Certificates/AI-For-Good-Studenudents_Almazan-Dominic.jpg',
   },
   {
     title: 'PSITE-STUDENT CONGRESS 2026: From code to Confidence',
     issuer: 'Security and AI for the next generation of computing students',
-    description: 'Certificate of participation in PSITE Student Congress 2026 focusing on security and AI advancements in computing education',
+    description: 'Recognized for participating in the PSITE Student Congress 2026: From Code to Confidence, highlighting developments in cybersecurity and artificial intelligence in modern computing education.',
     image: '/images/Certificates/Dominic_Boy_P__Almazan_69a4c8bca457d35eca6259a0_page-0001.jpg',
   },
 ]
