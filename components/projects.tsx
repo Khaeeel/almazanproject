@@ -23,7 +23,7 @@ const projects = [
     ]
   },
 {
-  title: 'AI Synopsis Engine (OJT Project)',
+  title: 'Synopsis: Automated Viber Chat Summarizer)',
   description: 'An AI-powered system that captures and analyzes Viber chat conversations using multi-engine OCR and LLMs. It automatically extracts tasks, generates forensic reports, builds a searchable knowledge base using RAG (ChromaDB), and manages structured data through a full automation pipeline.',
   tech: ['Python','Next.js', 'OCR (EasyOCR, PaddleOCR)', 'LLM (Qwen)', 'ChromaDB', 'MySQL', 'RAG', 'Docker', 'Automation'],
   github: 'https://github.com/Khaeeel/Sypnosis_Project_Full',
