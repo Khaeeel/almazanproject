@@ -22,6 +22,18 @@ const projects = [
       { name: 'Prediction Visualization', src: '/images/barangay-health/prediction1.png', description: 'AI-powered predictions showing age distribution, total consultations over time, top medical diagnoses, and seasonal patterns' },
     ]
   },
+{
+  title: 'AI Synopsis Engine (OJT Project)',
+  description: 'An AI-powered system that captures and analyzes Viber chat conversations using multi-engine OCR and LLMs. It automatically extracts tasks, generates forensic reports, builds a searchable knowledge base using RAG (ChromaDB), and manages structured data through a full automation pipeline.',
+  tech: ['Python','Next.js', 'OCR (EasyOCR, PaddleOCR)', 'LLM (Qwen)', 'ChromaDB', 'MySQL', 'RAG', 'Docker', 'Automation'],
+  github: 'https://github.com/Khaeeel/Sypnosis_Project_Full',
+  live: '#',
+  subProjects: [
+    { name: 'Full Source Code', link: 'https://github.com/Khaeeel/Sypnosis_Project_Full' },
+    { name: 'OCR + AI Pipeline', link: 'https://github.com/Khaeeel/Sypnosis_Project_Full/tree/main/core' },
+    { name: 'Database Pipeline', link: 'https://github.com/Khaeeel/Sypnosis_Project_Full/tree/main/database_pipeline' },
+  ]
+},
   {
     title: 'Stroke Prediction',
     description: 'This project compares multiple classifiers for medical diagnostics, identifying Support Vector Machine (SVM) as the most accurate model with a test accuracy of 97.15%, followed by K-Nearest Neighbors at 96.66%.',
