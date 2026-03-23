@@ -63,7 +63,7 @@ export function Hero() {
             <ArrowRight className="w-4 h-4" />
           </Link>
           <Link
-            href="/resume.pdf"
+            href="/images/Certificates/RESUME_ALMAZAN FG (2).pdf"
             download
             className="px-8 py-3 rounded-lg bg-accent text-accent-foreground font-semibold hover:opacity-90 transition-opacity flex items-center gap-2"
           >
