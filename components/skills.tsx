@@ -4,16 +4,16 @@ import { motion } from 'framer-motion'
 
 const skillCategories = [
   {
-    title: 'AI/ML',
-    skills: ['Machine Learning', 'Predictive Analytics', 'Model Training', 'Data Processing', 'NLP', 'LLMs', 'Data Preprocessing'],
+    title: 'AI / Machine Learning',
+    skills: ['Machine Learning', 'Predictive Analytics', 'Data Processing & Preprocessing', 'NLP / LLM', 'RAG (Retrieval-Augmented Generation)', 'Vector Databases (ChromaDB)', 'OCR (EasyOCR, PaddleOCR)'],
   },
   {
     title: 'Programming & Frameworks',
-    skills: ['Python','Flask','JavaScript', 'React / Next.js', 'SQL', 'PHP (Laravel)', 'REST APIs', ],
+    skills: ['Python', 'Flask', 'JavaScript', 'React / Next.js', 'SQL / MySQL', 'PHP (Laravel)', 'REST APIs'],
   },
   {
-    title: 'Other Skills',
-    skills: ['Adobe Photoshop', 'Adobe Illustrator', 'Canvas', 'Git/Github', 'Microsoft Office Suite',],
+    title: 'Tools',
+    skills: ['Git / GitHub', 'Figma (UI/UX)', 'Adobe Photoshop', 'Canva', 'Microsoft Office Suite', 'Mapbox GL JS'],
   },
 ]
 
